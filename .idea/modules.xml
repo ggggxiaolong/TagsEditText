@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TagsEditText.iml" filepath="$PROJECT_DIR$/TagsEditText.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TagsEditText/TagsEditText-TagsEditText.iml" filepath="$PROJECT_DIR$/TagsEditText/TagsEditText-TagsEditText.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file:///server/project/TagsEditText/TagsEditText/TagsEditText-TagsEditText.iml" filepath="/server/project/TagsEditText/TagsEditText/TagsEditText-TagsEditText.iml" />
+      <module fileurl="file:///server/project/TagsEditText/app/app.iml" filepath="/server/project/TagsEditText/app/app.iml" />
+      <module fileurl="file:///server/project/TagsEditText/project-TagsEditText.iml" filepath="/server/project/TagsEditText/project-TagsEditText.iml" />
     </modules>
   </component>
 </project>

@@ -1,15 +1,13 @@
 package mabbas007.myapplication;
 
 import android.os.Bundle;
-import android.support.annotation.IdRes;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
-
+import androidx.annotation.IdRes;
+import androidx.appcompat.app.AppCompatActivity;
 import java.util.Arrays;
 import java.util.Collection;
-
 import mabbas007.tagsedittext.TagsEditText;
 
 public class MainActivity extends AppCompatActivity
@@ -22,7 +20,7 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mTagsEditText = (TagsEditText) findViewById(R.id.tagsEditText);
+        mTagsEditText = findViewById(R.id.tagsEditText);
         mTagsEditText.setHint("Enter names of fruits");
         mTagsEditText.setTagsListener(this);
         mTagsEditText.setTagsWithSpacesEnabled(true);
